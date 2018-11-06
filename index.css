@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    background-image: url("http://torontostoreys.com/wp-content/uploads/2018/02/hands-1885310_1280-1024x683.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2 {
+    font-size: 100px;
+    color: whitesmoke;
+}
+h3 {
+    font-size: 50px;
+    color: red;
+    font-style: italic;
+}
+ul {
+    border: 1px solid;
+    border-bottom-color: rgba(255,255,255,.5);
+    border-right-color: rgba(60,60,60,.35);
+    border-top-color: rgba(60,60,60,.35);
+    border-left-color: rgba(80,80,80,.45);
+    background-color: rgba(0,0,0,.2);
+    background-repeat: no-repeat;
+    font: bold .875em/1.25em "Open Sans Condensed", sans-serif;
+    letter-spacing: .075em;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,.1);
+    margin-bottom: 19px;
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    overflow: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 15px
+
+}
+
+li a.active {
+    background-color: red;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: white;
+    color: white;
+}
+.field
+{
+    margin-left:25%;
+    padding:1px 16px;
+    height:1000px;
+}
+img
+{
+    height: 550px;
+    width: 100%;
+}
